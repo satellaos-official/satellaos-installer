@@ -16,7 +16,7 @@ echo ">>> papirus-folders kuruluyor..."
 wget -qO- https://git.io/papirus-folders-install | sh
 
 echo ">>> violet renk uygulanıyor..."
-papirus-folders -C yellow --theme Papirus
+papirus-folders -C violet --theme Papirus
 
 echo ">>> ikon önbelleği yenileniyor..."
 sudo gtk-update-icon-cache -f /usr/share/icons/*
