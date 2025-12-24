@@ -56,8 +56,5 @@ chmod +x "$HOME/satellaos-installer/application-icon/application-icon.sh"
 chmod +x "$HOME/satellaos-installer/interfaces/interfaces.sh"
 "$HOME/satellaos-installer/interfaces/interfaces.sh"
 
-chmod +x "$HOME/satellaos-installer/panel-customization/panel-customization.sh"
-"$HOME/satellaos-installer/panel-customization/panel-customization.sh"
-
 chmod +x "$HOME/satellaos-installer/autostart/autostart.sh"
 "$HOME/satellaos-installer/autostart/autostart.sh"

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=Satella Boot (Visible)
-Exec=xfce4-terminal --hold -e "bash -c '$HOME/git-script/autostart/satella-autostart.sh'"
+Exec=xfce4-terminal --hold -e "bash -c '$HOME/satellaos-installer/autostart/satella-autostart.sh'"
 Terminal=false
 X-GNOME-Autostart-enabled=true
