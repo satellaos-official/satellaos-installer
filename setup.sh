@@ -59,5 +59,5 @@ chmod +x "$HOME/satellaos-installer/interfaces/interfaces.sh"
 chmod +x "$HOME/satellaos-installer/fastfetch/fastfetch.sh"
 "$HOME/satellaos-installer/fastfetch/fastfetch.sh"
 
-chmod +x "$HOME/satellaos-installer/autostart/autostart.sh"
-"$HOME/satellaos-installer/autostart/autostart.sh"
+chmod +x "$HOME/satellaos-installer/configuration/configuration.sh"
+"$HOME/satellaos-installer/configuration/configuration.sh"
