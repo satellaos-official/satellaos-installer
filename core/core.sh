@@ -9,12 +9,23 @@ sudo apt update
 
 sudo apt install --no-install-recommends -y \
   xfce4 \
+  xfce4-appfinder \
+  xfce4-battery-plugin \
+  xfce4-clipman \
+  xfce4-clipman-plugin \
+  xfce4-datetime-plugin \
+  xfce4-docklike-plugin \
+  xfce4-indicator-plugin \
   xfce4-panel \
+  xfce4-panel-profiles \
+  xfce4-power-manager \
+  xfce4-power-manager-data \
+  xfce4-power-manager-plugins \
+  xfce4-pulseaudio-plugin \
   xfce4-session \
   xfce4-settings \
   xfce4-terminal \
   xfce4-whiskermenu-plugin \
-  xfce4-power-manager \
   xfce4-notifyd \
   xfce4-screenshooter \
   xfce4-screensaver \
@@ -22,6 +33,7 @@ sudo apt install --no-install-recommends -y \
   xfdesktop4 \
   thunar \
   mousepad \
+  engrampa \
   xorg \
   dbus-x11 \
   x11-xserver-utils \
@@ -29,12 +41,14 @@ sudo apt install --no-install-recommends -y \
   slick-greeter \
   lightdm-settings \
   ntfs-3g \
+  pulseaudio \
+  pavucontrol \
+  alsa-utils \
   gvfs \
   gvfs-backends \
-  gvfs-fuse \
-  pulseaudio \
-  alsa-utils \
-  pavucontrol
+  gvfs-fuse
+
+  
 
 # --------------------------------------------------
 # User utilities and desktop tools
@@ -48,8 +62,31 @@ sudo apt install --no-install-recommends -y \
   mtp-tools \
   jmtpfs \
   ristretto \
+  libwebp7 \
+  tumbler \
+  tumbler-plugins-extra \
+  webp-pixbuf-loader \
   gucharmap \
   unrar
+
+# --------------------------------------------------
+# Optional user applications
+# General-purpose applications, user preference based
+# Includes Brave Browser (APT repository method)
+# --------------------------------------------------
+echo "Installing optional user applications (Brave via APT repository)..."
+
+# Brave Browser
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg \
+  https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+
+sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources \
+  https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
+
+sudo apt update
+
+sudo apt install -y brave-browser
+
 
 # --------------------------------------------------
 # Optional user applications
@@ -88,6 +125,16 @@ sudo apt install -y \
   adwaita-qt \
   gnome-themes-extra \
   bibata-cursor-theme
+
+
+# --------------------------------------------------
+# PolicyKit (GUI authorization support)
+# --------------------------------------------------
+echo "Installing policykit components..."
+sudo apt install --no-install-recommends -y \
+  mate-polkit \
+  polkitd \
+  pkexec
 
 # --------------------------------------------------
 # LightDM configuration
