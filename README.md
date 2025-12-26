@@ -30,7 +30,7 @@ git clone https://github.com/satellaos-official/satellaos-installer.git "$HOME/s
 ![Step 7](https://raw.githubusercontent.com/satellaos-official/satellaos-installer/main/Installation-Guide/Installation-Guide-7.png)
 
 ### Step 8
-![Step 8](https://raw.githubusercontent.com/satellaos-official/satellaos-installer/main/Installation-Guide/Installation-Guide-8.png)
+![Step 8](https://raw.githubusercontent.com/satellaos-official/satellaos-installer/main/Installation-Guide/Installation-Guide-8.png
 
 ### Step 9
 ![Step 9](https://raw.githubusercontent.com/satellaos-official/satellaos-installer/main/Installation-Guide/Installation-Guide-9.png)
