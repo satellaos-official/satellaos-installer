@@ -56,9 +56,6 @@ sudo apt install --no-install-recommends -y \
 # --------------------------------------------------
 echo "Installing user utilities and desktop tools..."
 sudo apt install --no-install-recommends -y \
-  menulibre \
-  gnome-disk-utility \
-  galculator \
   mtp-tools \
   jmtpfs \
   ristretto \
@@ -66,37 +63,7 @@ sudo apt install --no-install-recommends -y \
   tumbler \
   tumbler-plugins-extra \
   webp-pixbuf-loader \
-  gucharmap \
   unrar
-
-# --------------------------------------------------
-# Optional user applications
-# General-purpose applications, user preference based
-# Includes Brave Browser (APT repository method)
-# --------------------------------------------------
-echo "Installing optional user applications (Brave via APT repository)..."
-
-# Brave Browser
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg \
-  https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-
-sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources \
-  https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
-
-sudo apt update
-
-sudo apt install -y brave-browser
-
-
-# --------------------------------------------------
-# Optional user applications
-# General-purpose applications, user preference based
-# --------------------------------------------------
-echo "Installing optional user applications..."
-sudo apt install --no-install-recommends -y \
-  vlc \
-  qbittorrent \
-  grub-customizer
 
 # --------------------------------------------------
 # Fonts, themes, and visual customization
