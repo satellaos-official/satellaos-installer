@@ -163,4 +163,11 @@ echo "22 - Applying final configuration..."
 chmod +x "$HOME/satellaos-installer/configuration/configuration.sh"
 "$HOME/satellaos-installer/configuration/configuration.sh"
 
+# --------------------------------------------------
+# 23 - Program install
+# --------------------------------------------------
+echo "22 - Programs is installing..."
+chmod +x "$HOME/satellaos-installer/satellaos-program-installer-tool-5.1.4.sh"
+"$HOME/satellaos-installer/satellaos-program-installer-tool-5.1.4.sh"
+
 echo "SatellaOS installation steps completed."
