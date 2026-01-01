@@ -34,6 +34,8 @@
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="position-search-alternate" type="bool" value="true"/>
       <property name="recent" type="array">
+        <value type="string" value="vlc.desktop"/>
+        <value type="string" value="engrampa.desktop"/>
         <value type="string" value="xfce4-power-manager-settings.desktop"/>
         <value type="string" value="lightdm-settings.desktop"/>
         <value type="string" value="org.xfce.PanelProfiles.desktop"/>
@@ -59,11 +61,13 @@
     </property>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="vlc"/>
     </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
     <property name="plugin-9" type="string" value="systray">
       <property name="icon-size" type="int" value="20"/>
       <property name="known-items" type="array">
+        <value type="string" value="vlc"/>
         <value type="string" value="blueman"/>
         <value type="string" value="XZtxln1RXi"/>
       </property>

@@ -115,59 +115,52 @@ chmod +x "$HOME/satellaos-installer/drivers/graphics intel setup.sh"
 "$HOME/satellaos-installer/drivers/graphics intel setup.sh"
 
 # --------------------------------------------------
-# 16 - Install SatellaOS documentation files
+# 16 - Apply system configuration files
 # --------------------------------------------------
-echo "16 - Installing documentation..."
-chmod +x "$HOME/satellaos-installer/documents/documents.sh"
-"$HOME/satellaos-installer/documents/documents.sh"
-
-# --------------------------------------------------
-# 17 - Apply system configuration files
-# --------------------------------------------------
-echo "17 - Applying system configuration..."
+echo "16 - Applying system configuration..."
 chmod +x "$HOME/satellaos-installer/config/config.sh"
 "$HOME/satellaos-installer/config/config.sh"
 
 # --------------------------------------------------
-# 18 - Install wallpapers and backgrounds
+# 17 - Install wallpapers and backgrounds
 # --------------------------------------------------
-echo "18 - Installing wallpapers and backgrounds..."
+echo "17 - Installing wallpapers and backgrounds..."
 chmod +x "$HOME/satellaos-installer/backgrounds/backgrounds.sh"
 "$HOME/satellaos-installer/backgrounds/backgrounds.sh"
 
 # --------------------------------------------------
-# 19 - Apply application icons
+# 18 - Apply application icons
 # --------------------------------------------------
-echo "19 - Applying application icons..."
+echo "18 - Applying application icons..."
 chmod +x "$HOME/satellaos-installer/application-icon/application-icon.sh"
 "$HOME/satellaos-installer/application-icon/application-icon.sh"
 
 # --------------------------------------------------
-# 20 - Apply interface customizations
+# 19 - Apply interface customizations
 # --------------------------------------------------
-echo "20 - Applying interface customizations..."
+echo "19 - Applying interface customizations..."
 chmod +x "$HOME/satellaos-installer/interfaces/interfaces.sh"
 "$HOME/satellaos-installer/interfaces/interfaces.sh"
 
 # --------------------------------------------------
-# 21 - Install and configure Fastfetch
+# 20 - Install and configure Fastfetch
 # --------------------------------------------------
-echo "21 - Installing Fastfetch..."
+echo "20 - Installing Fastfetch..."
 chmod +x "$HOME/satellaos-installer/fastfetch/fastfetch.sh"
 "$HOME/satellaos-installer/fastfetch/fastfetch.sh"
 
 # --------------------------------------------------
-# 22 - Apply final system configuration
+# 21 - Apply final system configuration
 # --------------------------------------------------
-echo "22 - Applying final configuration..."
-chmod +x "$HOME/satellaos-installer/configuration/configuration.sh"
-"$HOME/satellaos-installer/configuration/configuration.sh"
+echo "21 - Applying final configuration..."
+chmod +x "$HOME/satellaos-installer/config-restore.sh"
+"$HOME/satellaos-installer/config-restore.sh"
 
 # --------------------------------------------------
-# 23 - Program install
+# 22 - Program install
 # --------------------------------------------------
 echo "22 - Programs is installing..."
-chmod +x "$HOME/satellaos-installer/satellaos-program-installer-tool-5.1.4.sh"
-"$HOME/satellaos-installer/satellaos-program-installer-tool-5.1.4.sh"
+chmod +x "$HOME/satellaos-installer/satellaos-program-installer-tool-5.1.5.sh"
+"$HOME/satellaos-installer/satellaos-program-installer-tool-5.1.5.sh"
 
 echo "SatellaOS installation steps completed."
