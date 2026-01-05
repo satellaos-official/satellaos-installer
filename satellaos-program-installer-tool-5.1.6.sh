@@ -35,7 +35,8 @@ echo "27  - Gucharmap (Deb)"
 echo "28  - Gnome Software (Deb)"
 echo "29  - Mintstick (Deb)"
 echo "30  - Warp VPN"
-echo "31  - Libre Office (Deb)"
+echo "31  - Disk Usage Analyzer"
+echo "32  - Libre Office (Deb)"
 echo "--------------------------------------"
 
 PKG_DIR="$HOME/satellaos-packages"
@@ -212,6 +213,10 @@ install_30() {
 }
 
 install_31() { 
+    sudo apt install -y baobab
+}
+
+install_32() { 
     sudo apt install -y libreoffice libreoffice-gtk3
 }
 
