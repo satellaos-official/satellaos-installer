@@ -16,14 +16,14 @@ echo " 8  - LocalSend 1.17.0 (Deb)"
 echo " 9  - LocalSend (Flatpak)"
 echo "10  - KDiskMark 3.2.0 (Deb)"
 echo "11  - KDiskMark (Flatpak)"
-echo "12  - VirtualBox 7.2.4 (Deb)"
+echo "12  - VirtualBox 7.2.4 [Debian 13 (Deb)]"
 echo "13  - GIMP (Deb)"
 echo "14  - GIMP (Flatpak)"
 echo "15  - Pinta (Flatpak)"
 echo "16  - PowerISO (Flatpak)"
 echo "17  - MenuLibre (Deb)"
 echo "18  - Sublime Text (Deb)"
-echo "19  - WineHQ Stable (Deb)"
+echo "19  - WineHQ Stable [Debian 13 (Deb)]"
 echo "20  - Mission Center (Flatpak)"
 echo "21  - GParted (Deb)"
 echo "22  - GNOME Disk Utility (Deb)"
@@ -33,7 +33,10 @@ echo "25  - Grub Customizer (Deb)"
 echo "26  - Galculator (Deb)"
 echo "27  - Gucharmap (Deb)"
 echo "28  - Gnome Software (Deb)"
-echo "29  - Libre Office (Deb)"
+echo "29  - Mintstick (Deb)"
+echo "30  - Warp VPN"
+echo "31  - Disk Usage Analyzer"
+echo "32  - Libre Office (Deb)"
 echo "--------------------------------------"
 
 PKG_DIR="$HOME/satellaos-packages"
@@ -113,6 +116,14 @@ install_11() {
 install_12() {
     wget -O "$PKG_DIR/virtualbox-7.2_7.2.4-170995~Debian~trixie_amd64.deb" https://download.virtualbox.org/virtualbox/7.2.4/virtualbox-7.2_7.2.4-170995~Debian~trixie_amd64.deb
     sudo apt install -y "$PKG_DIR/virtualbox-7.2_7.2.4-170995~Debian~trixie_amd64.deb"
+    wget -O "$PKG_DIR/Oracle_VirtualBox_Extension_Pack-7.2.4.vbox-extpack" https://download.virtualbox.org/virtualbox/7.2.4/Oracle_VirtualBox_Extension_Pack-7.2.4.vbox-extpack
+    sudo VBoxManage extpack install --accept-license=eb31505e56e9b4d0fbca139104da41ac6f6b98f8e78968bdf01b1f3da3c4f9ae "$PKG_DIR/Oracle_VirtualBox_Extension_Pack-7.2.4.vbox-extpack"
+
+
+    sudo tee /etc/modprobe.d/blacklist.conf > /dev/null <<EOF
+blacklist kvm
+blacklist kvm_amd
+EOF
 }
 
 install_13() {
@@ -191,6 +202,21 @@ install_28() {
 }
 
 install_29() { 
+    sudo apt install -y mintstick
+}
+
+install_30() { 
+    
+    curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+    echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+    sudo apt-get update && sudo apt-get install cloudflare-warp
+}
+
+install_31() { 
+    sudo apt install -y baobab
+}
+
+install_32() { 
     sudo apt install -y libreoffice libreoffice-gtk3
 }
 
