@@ -160,7 +160,7 @@ chmod +x "$HOME/satellaos-installer/config-restore.sh"
 # 22 - Program install
 # --------------------------------------------------
 echo "22 - Programs is installing..."
-chmod +x "$HOME/satellaos-installer/satellaos-program-installer-tool-5.1.6.sh"
-"$HOME/satellaos-installer/satellaos-program-installer-tool-5.1.6.sh"
+chmod +x "$HOME/satellaos-installer/satellaos-program-installer-tool-5.2.0.sh"
+"$HOME/satellaos-installer/satellaos-program-installer-tool-5.2.0.sh"
 
 echo "SatellaOS installation steps completed."
