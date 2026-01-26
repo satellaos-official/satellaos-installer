@@ -2,37 +2,37 @@
 
 ## 📌 Neden SatellaOS?
 
-+ Debian Netinst altyapısı üzerine kuruludur; üç temel hedefi vardır: Minimalizm, Modernlik, Stabilite.
+🟢 Debian Netinst altyapısı üzerine kuruludur; üç temel hedefi vardır: Minimalizm, Modernlik, Stabilite.
 
-+ Çoğu Debian/Ubuntu tabanlı XFCE dağıtımı eski bir görünüme sahip olup 2000+ dpkg paketi ile gelirken, SatellaOS modern bir arayüz sunar ve yalnızca 1000+ dpkg paketi içerir.
+🟢 Çoğu Debian/Ubuntu tabanlı XFCE dağıtımı eski bir görünüme sahip olup 2000+ dpkg paketi ile gelirken, SatellaOS modern bir arayüz sunar ve yalnızca 1000+ (dpkg) ile 1500 (dpkg) 12 (Flatpak) arasında paketi içerir paket sayısı kurulum ekranında seçilen paketlere göre değişiklik gösterir.
 
-+ Kullanıcı özgürlüğünü ön planda tutar; sistem bloatware’den arındırılmıştır.
+🟢 Kullanıcı özgürlüğünü ön planda tutar; sistem bloatware’den arındırılmıştır.
 
-+ Tamamen modülerdir: SatellaOS-program-installer.sh ile 23 farklı programı tercihinize göre kurabilirsiniz.
+🟢 Tamamen modülerdir: SatellaOS-program-installer.sh ile 23 farklı programı tercihinize göre kurabilirsiniz.
  
 ## ⚠️ **Uyarılar**
 
-- SatellaOS dokunmatik paneller için tasarlanmamıştır, çünkü elimizde dokunmatik ekran donanımı bulunmamaktadır.
+🔴 SatellaOS dokunmatik paneller için tasarlanmamıştır, çünkü elimizde dokunmatik ekran donanımı bulunmamaktadır.
 
-- SatellaOS oyuncular için üretilmemiştir; Proton hâlâ geliştirme aşamasında olduğundan oyun performansında Windows daha üstündür.
+🔴 SatellaOS oyuncular için üretilmemiştir; Proton hâlâ geliştirme aşamasında olduğundan oyun performansında Windows daha üstündür.
 
 # (English)
 
 ## 📌 Why SatellaOS?
 
-+ Built on Debian Netinst infrastructure, with three core goals: Minimalism, Modernity, Stability.
+🟢 Built on Debian Netinst infrastructure, with three core goals: Minimalism, Modernity, Stability.
 
-+ Many Debian/Ubuntu-based XFCE distributions have an outdated look and ship with 2000+ dpkg packages, while SatellaOS offers a modern interface with only 1000+ dpkg packages.
+🟢 Most Debian/Ubuntu-based XFCE distributions have an outdated look and come with 2000+ dpkg packages, whereas SatellaOS offers a modern interface and includes only between 1000+ (dpkg) and 1500 (dpkg) plus 12 (Flatpak) packages. The number of packages varies depending on the selections made during the installation screen.
 
-+ Prioritizes user freedom and is completely free of bloatware.
+🟢 Prioritizes user freedom and is completely free of bloatware.
 
-+ Fully modular: with SatellaOS-program-installer.sh, you can install 23 different programs based on your preferences.
+🟢 Fully modular: with SatellaOS-program-installer.sh, you can install 23 different programs based on your preferences.
 
 ## ⚠️ **Warnings**
 
-- SatellaOS is not designed for touch panels, as we currently do not have touchscreen hardware available.
+🔴 SatellaOS is not designed for touch panels, as we currently do not have touchscreen hardware available.
 
-- SatellaOS is not intended for gamers; Proton is still under development, and Windows remains superior for gaming performance.
+🔴 SatellaOS is not intended for gamers; Proton is still under development, and Windows remains superior for gaming performance.
 
 # SatellaOS Installer - Installation Guide
 
