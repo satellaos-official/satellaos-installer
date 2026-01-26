@@ -10,7 +10,7 @@
 
 + Tamamen modülerdir: SatellaOS-program-installer.sh ile 23 farklı programı tercihinize göre kurabilirsiniz.
  
-## ⚠️ Uyarılar
+## ⚠️ **Uyarılar**
 
 - SatellaOS dokunmatik paneller için tasarlanmamıştır, çünkü elimizde dokunmatik ekran donanımı bulunmamaktadır.
 
@@ -28,7 +28,7 @@
 
 + Fully modular: with SatellaOS-program-installer.sh, you can install 23 different programs based on your preferences.
 
-## ⚠️ Warnings
+## ⚠️ **Warnings**
 
 - SatellaOS is not designed for touch panels, as we currently do not have touchscreen hardware available.
 
