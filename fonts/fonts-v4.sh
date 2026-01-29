@@ -8,9 +8,11 @@ echo "2) Noto (Universal coverage)"
 echo "3) Arabic / Persian / RTL"
 echo "4) Indic languages (India)"
 echo "5) Southeast Asian"
-echo "6) CJK (Japanese)"
-echo "7) Symbols / Emoji / Math"
-echo "8) Install ALL fonts"
+echo "6) Japanese"
+echo "7) Korean"
+echo "8) Chinese"
+echo "9) Symbols / Emoji / Math"
+echo "10) Install ALL fonts"
 echo
 read -p "Select font groups (e.g. 1 3 7): " selection
 
@@ -52,8 +54,8 @@ rtl_fonts=(
 # -----------------------------
 indic_fonts=(
   # Devanagari
-  fonts-deva fonts-deva-extra fonts-gargi fonts-sahadeva
-  fonts-samyak-deva fonts-lohit-deva fonts-kalapi fonts-nakula
+  fonts-deva fonts-deva-extra fonts-gargi fonts-sahadeva fonts-sil-annapurna
+  fonts-samyak-deva fonts-lohit-deva fonts-kalapi fonts-nakula 
 
   # Gujarati
   fonts-gujr fonts-gujr-extra fonts-lohit-gujr fonts-samyak-gujr
@@ -86,7 +88,7 @@ indic_fonts=(
 # 5) SOUTHEAST ASIA
 # -----------------------------
 sea_fonts=(
-  fonts-thai-tlwg
+  fonts-thai-tlwg fonts-arundina
   fonts-tlwg-garuda fonts-tlwg-garuda-ttf
   fonts-tlwg-kinnari fonts-tlwg-kinnari-ttf
   fonts-tlwg-laksaman fonts-tlwg-laksaman-ttf
@@ -104,14 +106,28 @@ sea_fonts=(
 )
 
 # -----------------------------
-# 6) CJK
+# 6) Japanese
 # -----------------------------
-cjk_fonts=(
-  fonts-ipafont fonts-ipafont-gothic fonts-ipafont-mincho
+japanese_fonts=(
+  fonts-ipafont fonts-ipafont-gothic fonts-ipafont-mincho fonts-takao
 )
 
 # -----------------------------
-# 7) SYMBOLS / MATH / MISC
+# 7) Korean
+# -----------------------------
+korean_fonts=(
+  fonts-nanum fonts-unfonts-core
+)
+
+# -----------------------------
+# 8) Chinese
+# -----------------------------
+chinese_fonts=(
+  fonts-wqy-zenhei fonts-arphic-ukai fonts-arphic-uming
+)
+
+# -----------------------------
+# 9) SYMBOLS / MATH / MISC
 # -----------------------------
 symbol_fonts=(
   fonts-font-awesome fonts-symbola fonts-opensymbol
@@ -132,13 +148,15 @@ for choice in $selection; do
     3) selected_packages+=("${rtl_fonts[@]}") ;;
     4) selected_packages+=("${indic_fonts[@]}") ;;
     5) selected_packages+=("${sea_fonts[@]}") ;;
-    6) selected_packages+=("${cjk_fonts[@]}") ;;
-    7) selected_packages+=("${symbol_fonts[@]}") ;;
-    8)
+    6) selected_packages+=("${japanese_fonts[@]}") ;;
+    7) selected_packages+=("${korean_fonts[@]}") ;;
+    8) selected_packages+=("${chinese_fonts[@]}") ;;
+    9) selected_packages+=("${symbol_fonts[@]}") ;;
+    10)
       selected_packages+=(
         "${latin_fonts[@]}" "${noto_fonts[@]}" "${rtl_fonts[@]}"
         "${indic_fonts[@]}" "${sea_fonts[@]}"
-        "${cjk_fonts[@]}" "${symbol_fonts[@]}"
+        "${japanese_fonts[@]}" "${korean_fonts[@]}" "${chinese_fonts[@]}" "${symbol_fonts[@]}"
       )
       ;;
     *) echo "Invalid option: $choice" ;;
