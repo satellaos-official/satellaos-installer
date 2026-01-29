@@ -14,7 +14,7 @@
 
 🔴  SatellaOS dokunmatik paneller için tasarlanmamıştır, çünkü elimizde dokunmatik ekran donanımı bulunmamaktadır.
 
-🔴  SatellaOS oyuncular için üretilmemiştir; Proton hâlâ geliştirme aşamasında olduğundan oyun performansında Windows daha üstündür.
+🔴  SatellaOS oyuncular için tasarlanmamıştır; Proton önemli ölçüde gelişmiş olsa da, genel oyun performansı açısından Windows hâlâ daha üstündür.
 
 # (English)
 
@@ -22,7 +22,7 @@
 
 🟢  Built on Debian Netinst infrastructure, with three core goals: Minimalism, Modernity, Stability.
 
-🟢 Most Debian/Ubuntu-based XFCE distributions have an outdated appearance and come with over 2000 dpkg packages, while SatellaOS offers a modern interface and includes between 1000 and 1600 dpkg packages, plus around 10 Flatpak packages. The exact number of packages depends on the choices made during installation.
+🟢 Most Debian/Ubuntu-based XFCE distributions have an outdated appearance and ship with over 2000 packages, while SatellaOS offers a modern interface and includes between 1000 and 1600 dpkg packages, plus around 10 Flatpak packages. The exact number of packages depends on the choices made during installation.
 
 🟢  Prioritizes user freedom and is completely free of bloatware.
 
@@ -32,7 +32,7 @@
 
 🔴  SatellaOS is not designed for touch panels, as we currently do not have touchscreen hardware available.
 
-🔴  SatellaOS is not intended for gamers; Proton is still under development, and Windows remains superior for gaming performance.
+🔴  SatellaOS is not intended for gamers; although Proton has improved significantly, Windows still offers better overall gaming performance.
 
 # SatellaOS Installer - Installation Guide
 
