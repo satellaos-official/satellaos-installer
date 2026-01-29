@@ -4,7 +4,7 @@
 
 🟢  Debian Netinst altyapısı üzerine kuruludur; üç temel hedefi vardır: Minimalizm, Modernlik, Stabilite.
 
-🟢 Debian/Ubuntu tabanlı XFCE dağıtımlarının çoğu eski bir görünüme sahiptir ve 2000’den fazla dpkg paketiyle birlikte gelir. Buna karşılık SatellaOS, modern bir arayüz sunar ve kurulum sırasında yapılan seçimlere bağlı olarak 1000 ile 1600 arasında dpkg paketi ile yaklaşık 10 adet Flatpak paket içerir.
+🟢 Debian/Ubuntu tabanlı XFCE dağıtımlarının çoğu eski bir görünüme sahiptir ve 2000’den fazla dpkg paketiyle birlikte gelir. Buna karşılık SatellaOS, modern bir arayüz sunar ve kurulum sırasında yapılan seçimlere bağlı olarak 1000 ile 1600 dpkg 10 Flatpak arasında paket içerir.
 
 🟢  Kullanıcı özgürlüğünü ön planda tutar; sistem bloatware’den arındırılmıştır.
 
