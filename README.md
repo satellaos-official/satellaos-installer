@@ -91,5 +91,5 @@ Screenshot 4
 Clone the installer repository into your home directory:
 
 ```bash
-git clone https://github.com/satellaos-official/satellaos-installer.git "$HOME/satellaos-installer"
+git clone https://github.com/satellaos-official/satellaos-installer.git
 ```
