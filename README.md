@@ -68,6 +68,9 @@ Step 9
 Step 10
 ![Step 10](https://raw.githubusercontent.com/satellaos-official/satellaos-installer/main/Installation-Guide/Installation-Guide-10.png)
 
+Step 11
+![Step 10](https://raw.githubusercontent.com/satellaos-official/satellaos-installer/main/Installation-Guide/Installation-Guide-10.png)
+
 # SatellaOS Installer - Screenshots
 
 ## Screenshots
