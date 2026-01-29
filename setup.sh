@@ -160,8 +160,8 @@ chmod +x "$HOME/satellaos-installer/config-restore.sh"
 # 22 - Fonts Installer
 # --------------------------------------------------
 echo "22 - Fonts is Installing..."
-chmod +x "$HOME/satellaos-installer/fonts-v3.sh"
-"$HOME/satellaos-installer/fonts/fonts-v3.sh"
+chmod +x "$HOME/satellaos-installer/fonts-v4.sh"
+"$HOME/satellaos-installer/fonts/fonts-v4.sh"
 
 # --------------------------------------------------
 # 23 - Program install
