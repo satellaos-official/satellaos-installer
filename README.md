@@ -4,11 +4,11 @@
 
 🟢  Debian Netinst altyapısı üzerine kuruludur; üç temel hedefi vardır: Minimalizm, Modernlik, Stabilite.
 
-🟢 Debian/Ubuntu tabanlı XFCE dağıtımlarının çoğu eski bir görünüme sahiptir ve 2000’den fazla dpkg paketiyle birlikte gelir. Buna karşılık SatellaOS, modern bir arayüz sunar ve kurulum sırasında yapılan seçimlere bağlı olarak 1000 ile 1600 dpkg 10 Flatpak arasında paket içerir.
+🟢 Debian/Ubuntu tabanlı XFCE dağıtımlarının çoğu eski bir görünüme sahiptir ve 2000’den fazla dpkg paketiyle birlikte gelir. Buna karşılık SatellaOS, modern bir arayüz sunar ve kurulum sırasında yapılan seçimlere bağlı olarak 1000 ile 1600 arasında dpkg paketi içerir.
 
 🟢  Kullanıcı özgürlüğünü ön planda tutar; sistem bloatware’den arındırılmıştır.
 
-🟢  Tamamen modülerdir: SatellaOS-program-installer.sh ile 23 farklı programı tercihinize göre kurabilirsiniz.
+🟢  Tamamen modülerdir: SatellaOS-program-installer.sh ile 30 farklı programı tercihinize göre kurabilirsiniz.
  
 ## ⚠️ **Uyarılar**
 
@@ -26,7 +26,7 @@
 
 🟢  Prioritizes user freedom and is completely free of bloatware.
 
-🟢  Fully modular: with SatellaOS-program-installer.sh, you can install 23 different programs based on your preferences.
+🟢  Fully modular: with SatellaOS-program-installer.sh, you can install 30 different programs based on your preferences.
 
 ## ⚠️ **Warnings**
 
