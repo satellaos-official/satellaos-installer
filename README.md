@@ -8,7 +8,7 @@
 
 🟢  Kullanıcı özgürlüğünü ön planda tutar; sistem bloatware’den arındırılmıştır.
 
-🟢  Tamamen modülerdir: SatellaOS-program-installer.sh ile 30 farklı programı tercihinize göre kurabilirsiniz.
+🟢  Tamamen modülerdir: SatellaOS-program-installer-tool.sh ile 30 farklı programı tercihinize göre kurabilirsiniz.
  
 ## ⚠️ **Uyarılar**
 
@@ -26,7 +26,7 @@
 
 🟢  Prioritizes user freedom and is completely free of bloatware.
 
-🟢  Fully modular: with SatellaOS-program-installer.sh, you can install 30 different programs based on your preferences.
+🟢  Fully modular: with SatellaOS-program-installer-tool.sh, you can install 30 different programs based on your preferences.
 
 ## ⚠️ **Warnings**
 
